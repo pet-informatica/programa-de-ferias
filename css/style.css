@@ -2,7 +2,7 @@
     padding: 0 15px;
 }
 
-#intro, #about, #inscription, #faq {padding-top: 4rem;}
+#intro, #about, #schedule {padding-top: 4rem;}
 
 #index-banner {
     min-height: 632px;
@@ -52,7 +52,7 @@
 
 .card-content a:hover {color: #2196F3;}
 
-#about, #inscription{background: rgb(247, 247, 247);}
+#about, #schedule {background: rgb(247, 247, 247);}
 
 .text_pink{color:#EF9A9A;}
 
