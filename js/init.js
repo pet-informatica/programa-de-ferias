@@ -4,6 +4,7 @@
   $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
+
     /*** Animate word ***/
 
     //set animation timing
@@ -162,8 +163,6 @@
 		closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
 	});
 
-	$('.parallax').parallax();
-
 	var card  = document.querySelectorAll('.card-work');
   	var transEndEventNames = {
 	      'WebkitTransition' : 'webkitTransitionEnd',
@@ -267,6 +266,6 @@
 	// [].forEach.call(card, function(card) {
 	// 	card.addEventListener('click', scaleCard, false);
 	// });
-
+  $('.parallax').parallax();
 	}); // end of document ready
 })(jQuery); // end of jQuery name space

@@ -16,6 +16,8 @@
     -webkit-box-shadow:none !important;
 }
 
+
+
 .text_h {
     padding: 15% 0;
     font-size: 6.0em;
@@ -32,6 +34,12 @@
     font-weight: 100;
     padding: 0;
     letter-spacing: 7px;
+}
+
+@media only screen and (max-width: 480px) {
+    .brand-logo{
+      font-size: 1.5rem !important;
+    }
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}

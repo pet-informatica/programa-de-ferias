@@ -23,7 +23,9 @@ gulp.task('bundle', function() {
 	return gulp
 				.src([
 						path.join(__dirname,'node_modules','jquery','dist','jquery.js'),
-						path.join(__dirname, 'js', '*.js')
+						path.join(__dirname, 'js', 'materialize.min.js'),
+						path.join(__dirname, 'js', 'init.js'),
+						path.join(__dirname, 'js', 'modernizr.js')
 					])
 				.pipe(concat('bundle.js'))
 				.pipe(babel({
