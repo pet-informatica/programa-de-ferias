@@ -23,7 +23,7 @@ gulp.task('bundle', function() {
 	return gulp
 				.src([
 						path.join(__dirname,'node_modules','jquery','dist','jquery.js'),
-						path.join(__dirname,'js','materialize.min.js'),
+						path.join(__dirname, 'js', '*.js')
 					])
 				.pipe(concat('bundle.js'))
 				.pipe(babel({
@@ -31,11 +31,11 @@ gulp.task('bundle', function() {
 					minified: true,
 					compact: true
 				}))
-				.pipe(gulp.dest(path.join(__dirname, 'bin')));
+				.pipe(gulp.dest(path.join(__dirname, 'bin', 'min')));
 });
 
 gulp.task('watchBundle', function(){
-	gulp.watch(path.join(__dirname, 'js', '**', '*.js'), ['bundle']);
+	gulp.watch(path.join(__dirname, 'js', '*.js'), ['bundle']);
 });
 
 gulp.task('html', function() {
@@ -49,17 +49,11 @@ gulp.task('watchHtml', function(){
 	gulp.watch(path.join(__dirname, '_index.html'), ['html']);
 });
 
-gulp.task('images', function() {
-	return gulp
-				.src(path.join(__dirname, 'images', '**', '*.*'))
-				.pipe(gulp.dest(path.join(__dirname, 'bin', 'images')));
-});
-
 gulp.task('fonts', function() {
 	return gulp
 				.src(path.join(__dirname, 'fonts', '**', '*.*'))
 				.pipe(gulp.dest(path.join(__dirname, 'bin', 'fonts')));
-});
+})
 
 gulp.task('sNcss', function() {
 	return gulp
@@ -68,7 +62,7 @@ gulp.task('sNcss', function() {
 				.pipe(addSrc(path.join(__dirname, 'css', '**', '*.css')))
 				.pipe(concat('bundle.css'))
 				.pipe(uglify())
-				.pipe(gulp.dest(path.join(__dirname, 'bin')));
+				.pipe(gulp.dest(path.join(__dirname, 'bin', 'min')));
 });
 
 gulp.task('watchsNcss', function(){
