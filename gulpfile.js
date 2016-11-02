@@ -15,7 +15,8 @@ gulp.task('development',
 		'watchHtml',
 		'fonts',
 		'sNcss',
-		'watchsNcss'
+		'watchsNcss',
+		'download'
 	]
 );
 
@@ -55,6 +56,12 @@ gulp.task('fonts', function() {
 	return gulp
 				.src(path.join(__dirname, 'fonts', '**', '*.*'))
 				.pipe(gulp.dest(path.join(__dirname, 'bin', 'fonts')));
+})
+
+gulp.task('download', function() {
+	return gulp
+				.src(path.join(__dirname, 'download', '*.*'))
+				.pipe(gulp.dest(path.join(__dirname, 'bin', 'download')));
 })
 
 gulp.task('sNcss', function() {
