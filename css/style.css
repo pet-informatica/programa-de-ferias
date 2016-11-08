@@ -2,7 +2,7 @@
     padding: 0 15px;
 }
 
-#intro, #about, #schedule {padding-top: 4rem;}
+#intro, #about, #schedule, #content {padding-top: 4rem;}
 
 #index-banner {
     min-height: 632px;
@@ -30,6 +30,10 @@
     color:white;
 }
 
+.btn{
+  background-color: rgba(33, 150, 243, 1) !important;
+}
+
 .brand-logo{
     position: absolute;
     color: #fff;
@@ -38,7 +42,7 @@
     font-style: normal;
     font-weight: 100;
     padding: 0;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -47,6 +51,13 @@
       letter-spacing: 2.5px;
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1120px) {
+    .brand-logo{
+      letter-spacing: 1px;
+    }
+}
+
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 .text_h3 {font-weight: 100;margin-bottom: 4%; line-height: 3rem;}
@@ -66,7 +77,6 @@
 
 .card-content a:hover {color: #2196F3;}
 
-#about, #schedule {background: rgb(247, 247, 247);}
 
 .text_pink{color:#EF9A9A;}
 
