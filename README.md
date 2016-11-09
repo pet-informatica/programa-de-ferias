@@ -11,4 +11,4 @@ Then
   4. run 'npm install'
   5. run 'npm run dev'
 
-All the necessary dependencies will be downloaded automatically, and any changes in scc, js or html will be watched by gulp. The resulting files will be minified and packed at bin/ folder. If you want to update the website, just make sure that bin/ is updated running 'npm run dev' and checking index.html, and then copy everything inside it to https://github.com/pet-informatica/pet-informatica.github.io/programa-de-ferias
+All the necessary dependencies will be downloaded automatically, and any changes in scc, js or html will be watched by gulp. The resulting files will be minified and packed at bin/ folder. If you want to update the website, just make sure that bin/ is updated running 'npm run dev' and checking index.html, and then copy everything inside it to https://github.com/pet-informatica/pet-informatica.github.io/tree/master/programa-de-ferias
