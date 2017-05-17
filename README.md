@@ -1,5 +1,7 @@
 # Programa de Férias - PET Informática
 
+The PET-Informatica summer course is an introduction to programming and development for students of high school. We try to motivate students and to show them that programming is not only for computer students!
+
 This website is hosted at: https://pet-informatica.github.io/programa-de-ferias
 
 In order to run this project you must install node.js avaiable here: https://nodejs.org/en/
