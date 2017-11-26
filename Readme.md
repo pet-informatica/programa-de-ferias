@@ -31,6 +31,6 @@ To publish the website on the web, first, create a production version of it usin
 
 ### UI Framework
 
-All the website design is built along with [Material UI](http://www.material-ui.com/#/). You can see the docs in order to learn how to construct new components.
+All the website design is built along with [Semantic UI React](https://react.semantic-ui.com/introduction). You can see the docs in order to learn how to construct new components.
 
 
