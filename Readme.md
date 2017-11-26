@@ -1,6 +1,5 @@
-![](http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png)
 
-#Programa de Férias
+# <img src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png" width="5%"> Programa de Férias
 
 The project must be developed under the `dev` branch. `master` branch is used only for publishing the website on the web under production enviroment.
 
