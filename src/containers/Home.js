@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Section from './../components/Section';
 import CalendarFeed from './../components/CalendarFeed';
+import ContentFeed from './../components/ContentFeed';
 import {Image, Header, Embed} from 'semantic-ui-react';
 
 export default class Home extends Component{
@@ -17,11 +18,15 @@ export default class Home extends Component{
                 <div style={{background:'#fafafa'}}>
                     <Image style={{marginTop: '4em'}} src="http://res.cloudinary.com/dkbuneg9h/image/upload/c_crop,h_568,w_1920,y_256/v1511797774/education-technology-school-and-people-concept-group-of-smiling-students-working-with-computers-in-computer-class-at-school_vuletns3e__F0000_oahbzu.png"/>
                     <Section title="SOBRE" marged>
-                        <p>Todo ano, durante o período de férias escolares, o <a href="https://pet-informatica.github.io">PET-Informática</a> ministra o programa de férias, um curso gratuito voltado para alunos do ensino médio e estudantes universitários que se interessem por aprender programação. É uma forma de difundir o conhecimento da computação e aproximar estudantes de um mundo cada vez mais tecnológico. Venha aprender uma linguagem de programação conosco! Vamos te mostrar que programar não é só coisa de quem faz computação!</p>
+                        <p>Todo ano, durante o período de férias escolares, o <a href="https://pet-informatica.github.io">PET-Informática</a> ministra o programa de férias, um curso de <a href="https://www.python.org/">Python</a> gratuito voltado para alunos do ensino médio e estudantes universitários que se interessem por aprender programação. É uma forma de difundir o conhecimento da computação e aproximar estudantes de um mundo cada vez mais tecnológico. Venha aprender uma linguagem de programação conosco! Vamos te mostrar que programar não é só coisa de quem faz computação!</p>
                     </Section>
                     <div id="calendario"/>
                     <Section title="CALENDÁRIO" marged unjustify undivided font='16px'>
                         <CalendarFeed/>
+                    </Section>
+                    <div id="ementa"/>
+                    <Section title="EMENTA" marged untexted undivided>
+                        <ContentFeed/>
                     </Section>
                 </div>
             </div>

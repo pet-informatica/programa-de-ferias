@@ -5,7 +5,7 @@ export default class Section extends Component{
    
     render(){
         return(
-            <Container text style={{marginTop: (this.props.marged? '5em':'0em'), fontSize:'24px', textAlign: (this.props.unjustify? 'left' : 'justify')}}>
+            <Container text={!this.props.untexted} style={{marginTop: (this.props.marged? '5em':'0em'), fontSize:'24px', textAlign: (this.props.unjustify? 'left' : 'justify')}}>
                 <Header size="huge" dividing={!this.props.undivided} textAlign="center">
                     {this.props.title}
                 </Header>

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import FeedCard from './FeedCard';
-import {Grid, Icon} from 'semantic-ui-react';
+import {Grid, Icon, Card} from 'semantic-ui-react';
 
 export default class HistoryFeed extends Component{
     render(){
@@ -11,12 +10,12 @@ export default class HistoryFeed extends Component{
                     <Icon name="flag checkered" size="huge" flipped='horizontally'></Icon>
                 </Grid.Column>
                 <Grid.Column>
-                    <FeedCard align='left' header='25, Dezembro, 2017' description='Início das Inscrições'></FeedCard>
+                    <Card align='left' header='25, Dezembro, 2017' description='Início das Inscrições'></Card>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>
                 <Grid.Column floated='right'>
-                    <FeedCard align='right' header='12, Janeiro, 2018' description='Fim das Inscrições'></FeedCard>
+                    <Card align='right' header='12, Janeiro, 2018' description='Fim das Inscrições'></Card>
                 </Grid.Column>
                 <Grid.Column floated='left'>
                 </Grid.Column>
@@ -26,12 +25,12 @@ export default class HistoryFeed extends Component{
                     <Icon name="calendar" size="huge"></Icon>
                 </Grid.Column>
                 <Grid.Column>
-                    <FeedCard align='left' header='15, Janeiro, 2018' meta='das 9h às 12h, diariamente' description='Início das Aulas'></FeedCard>
+                    <Card align='left' header='15, Janeiro, 2018' meta='das 9h às 12h, diariamente' description='Início das Aulas'></Card>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>
                 <Grid.Column floated='right'>
-                    <FeedCard align='right' header='29, Janeiro, 2018' description='Fim das Aulas'></FeedCard>
+                    <Card align='right' header='29, Janeiro, 2018' description='Fim das Aulas'></Card>
                 </Grid.Column>
                 <Grid.Column floated='left'>
                 </Grid.Column>
@@ -41,7 +40,7 @@ export default class HistoryFeed extends Component{
                     <Icon name="graduation" size="huge" flipped='horizontally'></Icon>
                 </Grid.Column>
                 <Grid.Column>
-                    <FeedCard align='left' header='05, Fevereiro, 2018' description='Divulgação das Notas'></FeedCard>
+                    <Card align='left' header='05, Fevereiro, 2018' description='Divulgação das Notas'></Card>
                 </Grid.Column>
             </Grid.Row>
         </Grid>
