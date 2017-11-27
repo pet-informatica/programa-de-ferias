@@ -2,13 +2,9 @@ import React, { Component } from "react";
 import {
   Container,
   Icon,
-  Image,
   Menu,
   Sidebar,
-  Item,
   Responsive,
-  Dropdown,
-  Header
 } from "semantic-ui-react";
 
 const NavBarMobile = ({
@@ -28,7 +24,8 @@ const NavBarMobile = ({
 			<Menu.Item disabled content='Inscrições' href='#'/>
       <Menu.Item content='Sobre' href='#'/>
       <Menu.Item content='Calendário' href="#calendario"/>
-      <Menu.Item content='Ementa' href='#ementa'/>
+      <Menu.Item disabled content='Ementa' href='#ementa'/>
+      <Menu.Item content='Ementa' href='#contato'/>
     </Sidebar>
     <Sidebar.Pusher
       dimmed={visible}
@@ -54,7 +51,8 @@ const NavBarDesktop = () => (
             <Menu.Item disabled content='Inscrições' href='#'/>
 						<Menu.Item content='Sobre' href='#'/>
             <Menu.Item content='Calendário' href="#calendario"/>
-            <Menu.Item content='Ementa' href='#ementa'/>
+            <Menu.Item disabled content='Ementa' href='#ementa'/>
+            <Menu.Item content='Contato' href='#contato'/>
         </Menu.Menu>
     </Container>
   </Menu>

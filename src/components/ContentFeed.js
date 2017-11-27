@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Container, Card} from 'semantic-ui-react';
+import {Grid, Card} from 'semantic-ui-react';
 
 export default class ContentFeed extends Component{
     render(){
