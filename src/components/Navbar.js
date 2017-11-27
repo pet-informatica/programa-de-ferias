@@ -25,17 +25,17 @@ const NavBarMobile = ({
       vertical
       visible={visible}
     >
-			<Menu.Item content="Sobre" href="/"/>
-      <Menu.Item content="Inscrições" href="/inscricoes"/>
-      <Menu.Item content="Ementa" href="/ementa"/>
-      <Menu.Item content='Material Didático' href='/material-didatico'/>
+			<Menu.Item disabled content='Inscrições' href='#'/>
+      <Menu.Item content='Sobre' href='#'/>
+      <Menu.Item content='Calendário' href="#calendario"/>
+      <Menu.Item content='Ementa' href='#ementa'/>
     </Sidebar>
     <Sidebar.Pusher
       dimmed={visible}
       onClick={onPusherClick}
       style={{ minHeight: "100vh" }}
     >
-      <Menu fixed="top" color='blue'>
+      <Menu fixed="top">
 				<Menu.Item onClick={onToggle}>
           <Icon name="sidebar" />
         </Menu.Item>
@@ -51,10 +51,10 @@ const NavBarDesktop = () => (
     <Container>
         <Menu.Item header as='h3'>Programa de Férias</Menu.Item>
         <Menu.Menu position="right">
-						<Menu.Item content='Sobre' href='/'/>
-            <Menu.Item content='Inscrições' href='/inscricoes'/>
-            <Menu.Item content='Ementa' href='/ementa'/>
-            <Menu.Item content='Material Didático' href='/material-didatico'/>
+            <Menu.Item disabled content='Inscrições' href='#'/>
+						<Menu.Item content='Sobre' href='#'/>
+            <Menu.Item content='Calendário' href="#calendario"/>
+            <Menu.Item content='Ementa' href='#ementa'/>
         </Menu.Menu>
     </Container>
   </Menu>
