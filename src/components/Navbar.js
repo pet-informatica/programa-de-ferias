@@ -39,14 +39,7 @@ const NavBarMobile = ({
 				<Menu.Item onClick={onToggle}>
           <Icon name="sidebar" />
         </Menu.Item>
-				<Container>
-					<Item>
-							<Image style={{width:'35px'}} src='http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png' />
-							<Item.Content style={{marginLeft:'10px'}}verticalAlign='middle'>
-									<Item.Header as='h3'>Programa de Férias</Item.Header>
-							</Item.Content>
-					</Item>
-				</Container>
+				<Menu.Item header as='h3'>Programa de Férias</Menu.Item>
       </Menu>
       {children}
     </Sidebar.Pusher>
@@ -54,14 +47,9 @@ const NavBarMobile = ({
 );
 
 const NavBarDesktop = () => (
-  <Menu fixed="top"  color="blue" >
+  <Menu fixed="top">
     <Container>
-        <Item>
-            <Image style={{width:'35px'}} src='http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png' />
-            <Item.Content style={{marginLeft:'10px'}}verticalAlign='middle'>
-                <Item.Header as='h3'>Programa de Férias</Item.Header>
-            </Item.Content>
-        </Item>
+        <Menu.Item header as='h3'>Programa de Férias</Menu.Item>
         <Menu.Menu position="right">
 						<Menu.Item content='Sobre' href='/'/>
             <Menu.Item content='Inscrições' href='/inscricoes'/>
