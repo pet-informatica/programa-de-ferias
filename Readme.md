@@ -1,7 +1,5 @@
 # <img src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png" width="5%"> Programa de Férias
 
-# Programa de Férias
-
 The website is published under `gh-page` branch.
 
 ### Dependencies
