@@ -2,7 +2,9 @@
   "name": "programa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pet-informatica.github.io/programa-de-ferias",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-router-dom": "^4.2.2",
@@ -11,6 +13,8 @@
     "semantic-ui-react": "^0.77.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
