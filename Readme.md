@@ -1,8 +1,8 @@
-![](http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png)
+# <img src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png" width="5%"> Programa de Férias
 
-#Programa de Férias
+# Programa de Férias
 
-The project must be developed under the `dev` branch. `master` branch is used only for publishing the website on the web under production enviroment.
+The website is published under `gh-page` branch.
 
 ### Dependencies
 
@@ -20,14 +20,10 @@ You can then open your browser and navigate to `http://localhost:3000/` to see t
 
 ### Production
 
-When website is ready to be published on the web, you must create a new production version of the project. Just run
-* `npm run build`
+When website is ready to be published on the web, just run
+* `npm run deploy`
 
-The full website will be ready for deployment under the `build/` folder.
-
-### Publishing
-
-To publish the website on the web, first, create a production version of it using the step above, and then copy the full content of `build/` folder to the `master` branch.
+it will automatically publish the website under the `gh-page` branch.
 
 ### UI Framework
 
