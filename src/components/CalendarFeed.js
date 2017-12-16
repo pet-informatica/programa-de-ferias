@@ -25,7 +25,7 @@ export default class HistoryFeed extends Component{
                     <Icon name="calendar" size="huge"></Icon>
                 </Grid.Column>
                 <Grid.Column>
-                    <Card align='left' header='22, Janeiro, 2018' meta='das 9h às 12h, diariamente' description='Início das Aulas'></Card>
+                    <Card align='left' header='22, Janeiro, 2018' meta='das 13h às 17h, diariamente' description='Início das Aulas'></Card>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>
