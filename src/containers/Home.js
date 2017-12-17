@@ -8,7 +8,7 @@ import {Image, Embed} from 'semantic-ui-react';
 export default class Home extends Component{
     render(){
         return(
-            <div id="motivacao" style={{marginTop:'-10px'}}>
+            <div id="sobre" style={{marginTop:'-10px'}}>
                 <Image style={{zIndex:'-10'}} src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1511745793/background-img-2_mokgdf_tkq3zv.jpg"/>
                 <Image style={{marginTop: '4em'}}size="small" centered src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1477079274/pet/pet_wn9jqn.png"/>
                 <Section>

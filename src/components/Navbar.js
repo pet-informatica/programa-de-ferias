@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {HashLink as Link} from 'react-router-hash-link';
 import {
   Container,
   Icon,
@@ -22,10 +23,10 @@ const NavBarMobile = ({
       visible={visible}
     >
 			<Menu.Item disabled content='Inscrições' href='#'/>
-      <Menu.Item content='Sobre' href='#'/>
-      <Menu.Item content='Calendário' href="#calendario"/>
+      <Menu.Item content='Sobre' href='#'><Link hash to="#sobre">Sobre</Link></Menu.Item>
+      <Menu.Item content='Calendário' href="#"><Link hash to="#calendario">Calendário</Link></Menu.Item>
       <Menu.Item disabled content='Ementa' href='#ementa'/>
-      <Menu.Item content='Ementa' href='#contato'/>
+      <Menu.Item content='Ementa' href='#'><Link hash to="#contato">Contato</Link></Menu.Item>
     </Sidebar>
     <Sidebar.Pusher
       dimmed={visible}
@@ -49,10 +50,10 @@ const NavBarDesktop = () => (
         <Menu.Item header as='h3'>Programa de Férias</Menu.Item>
         <Menu.Menu position="right">
             <Menu.Item disabled content='Inscrições' href='#'/>
-						<Menu.Item content='Sobre' href='#'/>
-            <Menu.Item content='Calendário' href="#calendario"/>
+						<Menu.Item content='Sobre' href='#'><Link hash to="#sobre">Sobre</Link></Menu.Item>
+            <Menu.Item content='Calendário' href="#"><Link hash to="#calendario">Calendario</Link></Menu.Item>
             <Menu.Item disabled content='Ementa' href='#ementa'/>
-            <Menu.Item content='Contato' href='#contato'/>
+            <Menu.Item content='Contato' href='#'><Link hash to="#contato">Contato</Link></Menu.Item>
         </Menu.Menu>
     </Container>
   </Menu>
