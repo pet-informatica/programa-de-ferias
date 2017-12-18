@@ -15,7 +15,7 @@ export default class HistoryFeed extends Component{
             </Grid.Row>
             <Grid.Row>
                 <Grid.Column floated='right'>
-                    <Card align='right' header='15, Janeiro, 2018' description='Fim das Inscrições'></Card>
+                    <Card align='right' header='07, Janeiro, 2018' description='Fim das Inscrições'></Card>
                 </Grid.Column>
                 <Grid.Column floated='left'>
                 </Grid.Column>
@@ -30,7 +30,7 @@ export default class HistoryFeed extends Component{
             </Grid.Row>
             <Grid.Row>
                 <Grid.Column floated='right'>
-                    <Card align='right' header='02, Janeiro, 2018' description='Fim das Aulas'></Card>
+                    <Card align='right' header='02, Fevereiro, 2018' description='Fim das Aulas'></Card>
                 </Grid.Column>
                 <Grid.Column floated='left'>
                 </Grid.Column>
@@ -40,7 +40,7 @@ export default class HistoryFeed extends Component{
                     <Icon name="graduation" size="huge" flipped='horizontally'></Icon>
                 </Grid.Column>
                 <Grid.Column>
-                    <Card align='left' header='08, Fevereiro, 2018' description='Divulgação das Notas'></Card>
+                    <Card align='left' header='05, Fevereiro, 2018' description='Divulgação das Notas'></Card>
                 </Grid.Column>
             </Grid.Row>
         </Grid>
