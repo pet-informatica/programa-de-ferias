@@ -22,10 +22,9 @@ const NavBarMobile = ({
       vertical
       visible={visible}
     >
-			<Menu.Item disabled content='Inscrições'/>
+			<Menu.Item content='Inscrições'><Link hash to="#inscricoes">Inscrições</Link></Menu.Item>
       <Menu.Item content='Sobre'><Link hash to="#sobre">Sobre</Link></Menu.Item>
       <Menu.Item content='Calendário'><Link hash to="#calendario">Calendário</Link></Menu.Item>
-      <Menu.Item disabled content='Ementa'/>
       <Menu.Item content='Ementa'><Link hash to="#contato">Contato</Link></Menu.Item>
     </Sidebar>
     <Sidebar.Pusher
@@ -49,10 +48,9 @@ const NavBarDesktop = () => (
     <Container>
         <Menu.Item header as='h3'>Programa de Férias</Menu.Item>
         <Menu.Menu position="right">
-            <Menu.Item disabled content='Inscrições'/>
+            <Menu.Item disabled content='Inscrições'><Link hash to="#inscricoes">Inscricões</Link></Menu.Item>
 						<Menu.Item content='Sobre' ><Link hash to="#sobre">Sobre</Link></Menu.Item>
             <Menu.Item content='Calendário'><Link hash to="#calendario">Calendario</Link></Menu.Item>
-            <Menu.Item disabled content='Ementa'/>
             <Menu.Item content='Contato'><Link hash to="#contato">Contato</Link></Menu.Item>
         </Menu.Menu>
     </Container>
